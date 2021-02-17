@@ -21,7 +21,7 @@ configurations["implementation"].extendsFrom(shadowImplementation)
 
 dependencies {
     shadowImplementation(kotlin("stdlib"))
-    implementation("org.yatopiamc:yatopia-api:1.16.5-R0.1-SNAPSHOT")
+    implementation("org.yatopiamc:yatopia-api:1.16.5-R0.1-SNAPSHOT-staging")
     shadowImplementation("com.github.sya-ri:EasySpigotAPI:1.3.0") {
         exclude(group = "org.spigotmc", module = "spigot-api")
     }
